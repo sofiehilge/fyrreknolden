@@ -1,0 +1,16 @@
+:root{
+    --color-primary: #6B9080;
+    --color-secondary: #EAF4F4;
+    --color-font: #172a3a;
+    --color-best: #cce3de;
+    --color-bestyrelse:#f6fff8;
+
+    --font-hero: 'Merriweather Sans', sans-serif;
+    --font-paragraf: 'Roboto Condensed', sans-serif;
+
+    --size-hero: clamp(2rem, 6vw, 8rem);
+    --size-header: clamp(1rem, 5vw, 6rem);
+    --size-logo: clamp( 0.8rem, 1.8vw, 6rem); 
+    --size-paragraf: clamp(0.8rem, 1.5vw, 5rem);
+    --size-footer: clamp(0.5rem, 1.5vw, 2rem);
+}

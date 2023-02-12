@@ -1,0 +1,27 @@
+.om-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.om-header{
+    text-align: center;
+    max-width: 80vw;
+    font-size: var(--size-header);
+}
+
+.om-para{
+   max-width: 60vw;
+}
+
+
+.om-li{
+    font-family: var(--font-paragraf);
+    font-size: var(--size-paragraf);
+}
+
+.image-container{
+    margin-bottom: -5px;
+}

@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--color-font);
+    background-color: var(--color-secondary)
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* --------------------------main------------------------------ */
+h1{
+    font-size: var(--size-header);
+    font-family: var(--font-paragraf); 
+}
+
+h2{
+    font-size: var(--size-header);
+    font-family: var(--font-hero);
+}
+
+h3{
+    font-family: var(--font-family);
+    font-size: var(--size-logo);
+    list-style: none;
+    color: var(--color-font);
+    text-decoration: none;
+    padding-right: 5px;
+}
+
+h4{
+    font-size: var(--size-header);
+    font-family: var(--font-paragraf);
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+p{
+    font-family: var(--font-paragraf);
+    font-size: var(--size-paragraf);
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5em;
+}
+
+.hero-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    text-align: center;
+    line-height: 30px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.green{
+    color: var(--color-primary);
+    padding-right: 15px;
+}
+
+i{
+    color: var(--color-font)
+}
+/* ----------------------image row---------------- */
+.image-container{
+    display: flex;
+    line-height: 0%;
+}
+
+.column{
+    flex: 33.33%;
+}
+/* ---------------------Footer---------------------------- */
+
+.kontakt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-primary);
+    line-height: 2px;
+    padding: 10px;
+    font-size: var(--size-paragraf)
+}
+
+/* --------------------Planoversigt----------------------------- */
+.planoversigt{
+    border: 3px solid var(--color-font);
+    margin: 20px 0;
+}
+
+/* ----------------------Husplan-------------------- */
+figcaption{
+    font-family: var(--font-paragraf);
+    font-size: var(--size-paragraf);
+    margin-bottom: 20px;
+}
+
+.plantegning{
+    border: 3px solid var(--color-font);
+}
+
+/* -----------------------Bestyrrelse--------------------------- */
+
+.bestyrelse{
+    background-color: var(--color-best);
+    width: 100%
+}
+
+.best{
+    background-color: var(--color-secondary);
+    width: 100%;
+}
